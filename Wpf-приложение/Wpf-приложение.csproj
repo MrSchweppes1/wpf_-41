@@ -68,12 +68,41 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="pages\admin.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="pages\info.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="pages\login.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="pages\reg.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="pages\userList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="pages\admin.xaml.cs">
       <DependentUpon>admin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pages\info.xaml.cs">
+      <DependentUpon>info.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pages\login.xaml.cs">
+      <DependentUpon>login.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pages\reg.xaml.cs">
+      <DependentUpon>reg.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pages\userList.xaml.cs">
+      <DependentUpon>userList.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>

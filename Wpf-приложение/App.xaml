@@ -4,6 +4,15 @@
              xmlns:local="clr-namespace:Wpf_приложение"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="AliceBlue"/>
+            <Setter Property="Foreground" Value="Blue"/>
+        </Style>
+        <Style TargetType="TextBlock" x:Key="reklama">
+            <Setter Property="Background" Value="Gold"/>
+        </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="Brown"/>
+        </Style>
     </Application.Resources>
 </Application>
